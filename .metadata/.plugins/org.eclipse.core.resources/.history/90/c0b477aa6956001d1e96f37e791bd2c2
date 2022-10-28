@@ -1,0 +1,15 @@
+package org.java.variableEx;
+
+public class VarEx01 {
+	
+	public static void main(String[] args) {
+		
+		// 1. 변수
+		/*
+		 * 1.변수를 선언
+		 * 2.변수를 초기화 -> data를 추가
+		 * 3.변수를 메모리에 할당
+		 */
+	}
+	
+}

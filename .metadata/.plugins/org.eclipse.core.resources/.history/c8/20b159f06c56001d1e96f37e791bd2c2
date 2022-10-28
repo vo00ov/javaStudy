@@ -1,0 +1,27 @@
+package org.java.variableEx;
+
+public class VarEx01 {
+	
+	public static void main(String[] args) {
+		
+		// 1. 변수
+		/*
+		 * 1.변수를 선언
+		 * 2.변수를 초기화 -> data를 추가
+		 * 3.변수를 메모리에 할당
+		 */
+		// java 기본 타입 primitive type
+		
+		//정수형
+		byte b;	// byte형의 변수 b를 선언했다.
+		b = 12;	// 변수 b에 정수형 data 10으로 초기화 했다. -> 메모리에 할당
+		
+		if(b>10) {
+			System.out.println("10초과");
+		}else {
+			System.out.println(b);
+		}
+
+	}
+	
+}

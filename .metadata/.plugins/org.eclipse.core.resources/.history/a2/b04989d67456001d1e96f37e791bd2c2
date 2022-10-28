@@ -1,0 +1,12 @@
+package org.java.variableEx;
+
+public class BasicClass {
+
+	public String userId;
+	public String userPw;
+	
+	public void basicMethod() {
+		System.out.println("아이디: " + userId);
+		System.out.println("비밀번호: " + userPw);
+	}
+}

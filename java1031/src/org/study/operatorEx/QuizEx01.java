@@ -9,11 +9,11 @@ public class QuizEx01 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("첫번재 정수 : ");
-		int num1 = sc.nextInt();
+		double num1 = sc.nextDouble();
 		System.out.print("두번재 정수 : ");
-		int num2 = sc.nextInt();
+		double num2 = sc.nextDouble();
 		
-		System.out.print("연산자를 입력하세요 : (+ , - , * , / , %) ");
+		System.out.println("연산자를 입력하세요 : (+ , - , * , / , %) ");
 		String ss = sc.next();
 		
 		if(ss.equals("+")) {
@@ -23,9 +23,9 @@ public class QuizEx01 {
 		}else if(ss.equals("*")) {
 			System.out.println(num1 + " * " + num2 + " = " + (num1*num2));
 		}else if(ss.equals("/")) {
-			System.out.println(num1 + " / " + num2 + " = " + ((double)num1/num2));
+			System.out.println(num1 + " / " + num2 + " = " + (num1/num2));
 		}else if(ss.equals("%")) {
-			System.out.println(num1 + " % " + num2 + " = " + (num1-num2));
+			System.out.println(num1 + " % " + num2 + " = " + (num1%num2));
 		}else {
 			System.out.println("잘못입력했다.");
 		}

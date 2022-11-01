@@ -13,8 +13,10 @@ public class QuizEx01 {
 		System.out.print("두번재 정수 : ");
 		double num2 = sc.nextDouble();
 		
+		sc.nextLine();
 		System.out.println("연산자를 입력하세요 : (+ , - , * , / , %) ");
-		String ss = sc.next();
+		String ss = sc.nextLine();
+		
 		
 		if(ss.equals("+")) {
 			System.out.println(num1 + " + " + num2 + " = " + (num1+num2));

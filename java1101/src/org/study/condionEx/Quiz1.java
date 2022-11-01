@@ -18,10 +18,32 @@ public class Quiz1 {
 		int eng = sc.nextInt();
 		
 		int sum = kor + math + eng;
-		int avg = sum/3;;
+		double avg = (double)sum/3;;
+		String jumsu = "";
+		
+		if(avg >= 90 && avg <101 ) {
+			jumsu = "A";
+		}else if(avg >= 80 && avg < 90) {
+			jumsu = "B";
+		}else if(avg >= 70 && avg < 80) {
+			jumsu = "C";
+		}else if(avg >= 60 && avg < 70) {
+			jumsu = "D";
+		}else if(avg < 60 && avg >= 0 ) {
+			jumsu = "E";
+			
+		}else if(avg>100) {
+			System.out.println("잘못입력되었습니다.");
+		}else {
+			System.out.println("-값이 나올 수가 있을까요?");
+		}
+		
+		System.out.println("총점 : " + sum + "점");
+		System.out.println("평균 : " + avg + "점");
+		System.out.println("학점 : " + jumsu +"등급 입니다.");
 		
 		System.out.println("==============");
-		
+/*
 		if(avg >= 90 && avg <101 ) {
 			System.out.println("총점 : " + sum + "점");
 			System.out.println("평균 : " + avg + "점");
@@ -47,7 +69,7 @@ public class Quiz1 {
 		}else {
 			System.out.println("-값이 나올 수가 있을까요?");
 		}
-		
+*/
 		System.out.println("==============");
 		System.out.println("프로그램을 종료합니다.");
 		

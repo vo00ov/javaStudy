@@ -38,5 +38,7 @@ public class LoginEx3 {
 		}else {
 			System.out.println("로그인성공");
 		}
+		
+		sc.close();
 	}
 }

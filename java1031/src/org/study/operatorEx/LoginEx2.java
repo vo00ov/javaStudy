@@ -51,7 +51,7 @@ public class LoginEx2 {
 		}
 		
 		
-		
+		sc.close();
 		
 		
 	}

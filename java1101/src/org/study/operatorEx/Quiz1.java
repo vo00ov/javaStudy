@@ -22,5 +22,7 @@ public class Quiz1 {
 		char ch2 = sc.next().charAt(0);
 		System.out.println("소문자 -> 대문자 : " + (char)(ch2-32));
 		
+		sc.close();
+		
 	}
 }

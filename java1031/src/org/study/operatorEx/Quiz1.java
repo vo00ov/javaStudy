@@ -26,5 +26,7 @@ public class Quiz1 {
 		}else if(number == 0) {
 			System.out.println("0입니다");
 		}
+		
+		sc.close();
 	}
 }

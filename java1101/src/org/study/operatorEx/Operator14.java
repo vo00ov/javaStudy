@@ -38,5 +38,7 @@ public class Operator14 {
 		System.out.println("ch -> " + ch);
 		System.out.println("ch -> " + (ch + 32));
 		System.out.println("ch -> " + (char)(ch + 32));
+		
+		sc.close();
 	}
 }

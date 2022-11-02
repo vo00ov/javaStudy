@@ -1,7 +1,5 @@
 package org.study.operatorEx;
 
-import java.util.Scanner;
-
 public class Operator4 {
 
 	public static void main(String[] args) {
@@ -30,5 +28,7 @@ public class Operator4 {
 		System.out.println("java".equals(str1));
 		System.out.println(str1.equals(str2));
 		System.out.println(str1.equals(str3));
+		
+		
 	}
 }

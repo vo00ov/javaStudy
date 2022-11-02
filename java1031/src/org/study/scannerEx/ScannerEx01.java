@@ -29,5 +29,6 @@ public class ScannerEx01 {
 		double hei =  sc.nextDouble();
 		System.out.println(hei);
 		
+		sc.close();
 	}
 }
